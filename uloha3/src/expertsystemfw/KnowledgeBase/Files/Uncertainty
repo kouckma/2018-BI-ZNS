@@ -1,0 +1,23 @@
+ODS rightLeaning 0.8
+ODS NEimmigrants 0.7
+ODS NEreferendumNATO 0.9
+Pirati NErightLeaning 0.6
+Pirati marihuana 1.0
+Pirati NEreferendumNATO 0.8
+TOP09 euro 0.9
+TOP09 rightLeaning 0.8
+TOP09 NEimmigrants 0.6
+TOP09 NEreferendumNATO 0.9
+SPD rightLeaning 0.8
+SPD NEimmigrants 1.0
+SPD referendumNATO 1.0
+Zeleni NErightLeaning 1.0
+Zeleni immigrants 0.9
+Zeleni NEreferendumNATO 0.9
+;
+ANO 0.35
+ODS 0.25
+Pirati 0.25
+Zeleni 0.05
+TOP09 0.05
+SPD 0.05

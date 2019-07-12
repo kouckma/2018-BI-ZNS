@@ -1,0 +1,38 @@
+kouckma@kouckma-UX410UAK:~/git/bi-zns-2018-kouckma2$
+
+
+
+//pozor na spatny nazvy I guess
+
+git mv uloha2 uloha2_bad_inference_zaloha
+fatal: bad source, source=uloha2, destination=uloha2_bad_inference_zaloha
+kouckma@kouckma-UX410UAK:~/git/bi-zns-2018-kouckma2$ git commit -m 'commit'On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	uloha3/.gitignore
+	uloha3/.idea/
+
+nothing added to commit but untracked files present
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+//spravne
+
+git mv uloha2_bad_inference/ uloha2_bad_inference_zaloha
+git commit -m 'commit'
+git push -u origin master
+
+//asi hlavne tohle I guess
+git rm --cached framework
+git rm --cached uloha2
+git add -f framework/*
+git add -f uloha2/*
+git commit -m 'commit'
+git push -u origin master
+
+//nebo ultimatne
+git rm -r --cached .
+git add ./*
+git commit -m 'commit'
+git push -u origin master

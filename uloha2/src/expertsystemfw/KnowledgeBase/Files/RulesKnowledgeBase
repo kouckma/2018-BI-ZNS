@@ -1,0 +1,5 @@
+IF ODS THEN rightLeaning &&  NEimmigrants && NEreferendumNATO
+IF TOP09 THEN rightLeaning && NEimmigrants && NEreferendumNATO && euro
+IF Zeleni THEN NErightLeaning && immigrants
+IF SPD THEN rightLeaning && NEimmigrants && referendumNATO
+IF Pirati THEN NErightLeaning && marihuana

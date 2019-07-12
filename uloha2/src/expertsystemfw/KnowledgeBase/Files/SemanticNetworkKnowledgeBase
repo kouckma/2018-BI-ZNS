@@ -1,0 +1,18 @@
+# Toto je soubor na tvorbu baze znalosti pomoci semanticke site, tedy orientovany graf
+# Zadavejte ve formatu:
+# node_from; relation_edge; node_to
+# 
+# Jako mozne vysledky expertniho systemu (conclusions) jsou brany uzly majici vstupni stupen vrcholu 0 (nevchazi do nich zadna hrana), tedy uzel je zdrojem
+# 
+# relation_edge musi mit nazev rovny jednomu z vyctovych prvku v enumu "expertsystemfw.KnowledgeBase.SemanticNetwork.Relation"
+#
+# Neni mozne, aby mezi dvema uzly byla vice nez jedna hrana, ani v ruznem smeru
+#
+# ######
+#
+# Jako delimiter je mozne pouzit strednik ';' nebo carku ','
+#
+# Whitespace na zacatku, na konci a kolem delimiteru je ignorovan (smazan)
+# 
+# Radky zacinajici na '#' a prazdne radky jsou ignorovany
+############################################################################################################################################################

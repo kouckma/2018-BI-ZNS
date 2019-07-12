@@ -1,0 +1,56 @@
+############## questions about party's program ##############
+
+IF politickaStrana = ODS THEN ! uprchlici
+IF politickaStrana = SPD THEN ! uprchlici
+#same for KSCM, CSSD, TOP09, KDUCSL
+
+IF politickaStrana = Zeleni THEN uprchlici
+
+IF politickaStrana = SPD THEN referendumNATO
+IF politickaStrana = KSCM THEN referendumNATO
+
+IF politickaStrana = CSSD THEN jizdneZdarma
+
+IF politickaStrana = ANO THEN babis
+IF politickaStrana = SPD THEN babis
+IF politickaStrana = ODS THEN ! babis
+
+
+IF politickaStrana = Pirati THEN konopi
+IF politickaStrana = Zeleni THEN konopi
+
+IF politickaStrana = SPD THEN referendumEU
+
+# IF vsichni THEN zlepseniBydleni
+# IF vsichni THEN zlepseniDopravy
+
+IF politickaStrana = TOP09 THEN skolneVS
+IF politickaStrana = CSSD THEN !skolneVS
+IF politickaStrana = Zeleni THEN !skolneVS
+
+IF politickaStrana = ODS THEN ! inkluze
+IF politickaStrana = KSCM THEN ! inkluze
+IF politickaStrana = SPD THEN ! inkluze
+
+IF politickaStrana = ODS THEN ! euro
+IF politickaStrana = ANO THEN ! euro
+IF politickaStrana = TOP09 THEN euro
+IF politickaStrana = CSSD THEN euro
+
+IF politickaStrana = SPD THEN ! pridatUcitelum
+
+############## questions about user ##############
+
+IF politickaStrana = ODS THEN pravice
+IF politickaStrana = TOP09 THEN pravice
+IF politickaStrana = CSSD THEN ! pravice
+
+# age
+IF politickaStrana = Pirati THEN age < 30
+# || TOP09 || SPD
+IF politickaStrana = KSCM THEN age > 60
+# || CSSD || ANO
+
+# education
+IF politickaStrana = TOP09 THEN VS
+IF politickaStrana = KSCM THEN ZS

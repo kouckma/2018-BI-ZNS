@@ -1,0 +1,3 @@
+ssh-add ~/.ssh/id_rsa.pub
+ eval $(ssh-agent -s)
+ ssh -T git@gitlab.fit.cvut.cz
